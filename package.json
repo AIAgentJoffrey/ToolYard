@@ -7,7 +7,7 @@
     "build": "cd toolyard && next build",
     "start": "cd toolyard && next start",
     "lint": "next lint",
-    "postinstall": "rm -f toolyard && unzip -o toolyard.zip -d ."
+    "postinstall": "rm -rf toolyard && unzip -o toolyard.zip -d ."
   },
   "dependencies": {
     "next": "14.2.3",
